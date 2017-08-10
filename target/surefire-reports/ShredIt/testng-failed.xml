@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [ShredIt]">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="URL" value="http://shredit-qa.ecentricarts.com/en-us/home"/>
+  <listeners>
+    <listener class-name="eca.utility.ScreenShotListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="URL" value="http://shredit-qa.ecentricarts.com/en-us/home"/>
+    <classes>
+      <class name="eca.signUpTest.SignUpTest">
+        <methods>
+          <include name="setup"/>
+          <include name="beforeClass"/>
+          <include name="close"/>
+          <include name="methodName"/>
+        </methods>
+      </class> <!-- eca.signUpTest.SignUpTest -->
+      <class name="eca.getQuoteTest.GetPaperShredQuoteTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="methodName"/>
+        </methods>
+      </class> <!-- eca.getQuoteTest.GetPaperShredQuoteTest -->
+      <class name="eca.getQuoteTest.GetHardDriverQuoteTest">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="beforeClass"/>
+          <include name="methodName"/>
+        </methods>
+      </class> <!-- eca.getQuoteTest.GetHardDriverQuoteTest -->
+      <class name="eca.getQuoteTest.GetHomeAndFooterQuoteTest">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="beforeClass"/>
+          <include name="methodName"/>
+        </methods>
+      </class> <!-- eca.getQuoteTest.GetHomeAndFooterQuoteTest -->
+      <class name="eca.serviceCenterPagesTest.RightRailFormTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="methodName"/>
+        </methods>
+      </class> <!-- eca.serviceCenterPagesTest.RightRailFormTest -->
+      <class name="eca.blogDetailsTest.BlogPageTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testBannerContents"/>
+          <include name="testEmailValidation"/>
+          <include name="testRssButton"/>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="testArchivesContent"/>
+          <include name="testBottomRailWidget"/>
+          <include name="testContinueReadingLink"/>
+          <include name="testOlderPostButton"/>
+          <include name="methodName"/>
+          <include name="testSubscribeBlog"/>
+        </methods>
+      </class> <!-- eca.blogDetailsTest.BlogPageTest -->
+      <class name="eca.serviceCenterPagesTest.ServiceCenterWidgetTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="methodName"/>
+        </methods>
+      </class> <!-- eca.serviceCenterPagesTest.ServiceCenterWidgetTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [ShredIt] -->

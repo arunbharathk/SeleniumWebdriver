@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="181.998" tests="56" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_141\jre\bin"/>
+    <property name="java.vm.version" value="25.141-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\abharath\eclipse-workspace\ShredIt-UiAutomation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\abharath\eclipse-workspace\ShredIt-UiAutomation"/>
+    <property name="java.runtime.version" value="1.8.0_141-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\abharath\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\abharath\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7817547200072772475.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_141\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_141/bin/server;C:/Program Files/Java/jre1.8.0_141/bin;C:/Program Files/Java/jre1.8.0_141/lib/amd64;%appdata%\npm;C:\ProgramData\chocolatey\bin;C:\Users\pproplesch\AppData\Local\atom\bin;C:\Users\pproplesch\AppData\Local\Programs\Git\cmd;C:\path;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files\nodejs\;C:\path;C:\Program Files (x86)\dotnet\C:\Program Files\dotnet\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\pproplesch\.babun;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\path;C:\Program Files\TortoiseGit\bin;C:\Windows\System32\WindowsPowerShell\v1.0\;%appdata%\npm;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Skype\Phone\;C:\Ruby22\bin;C:\Program Files\dotnet\;C:\Users\abharath\Downloads\;C:\Program Files\Git\cmd;C:\Users\abharath\Desktop\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\abharath"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="ABharath"/>
+    <property name="java.class.path" value="/C:/Users/abharath/Desktop/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.8.0.20170516-2042/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_141\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_141"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_141\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\abharath\eclipse-workspace\ShredIt-UiAutomation\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testBannerContents" classname="eca.blogDetailsTest.BlogPageTest" time="0.001"/>
+  <testcase name="testContinueReadingLink" classname="eca.blogDetailsTest.BlogPageTest" time="5.889"/>
+  <testcase name="testSubscribeBlog" classname="eca.blogDetailsTest.BlogPageTest" time="0.029"/>
+  <testcase name="testEmailValidation" classname="eca.blogDetailsTest.BlogPageTest" time="1.248"/>
+  <testcase name="testArchivesContent" classname="eca.blogDetailsTest.BlogPageTest" time="0.044"/>
+  <testcase name="testBottomRailWidget" classname="eca.blogDetailsTest.BlogPageTest" time="0"/>
+  <testcase name="testOlderPostButton" classname="eca.blogDetailsTest.BlogPageTest" time="0.04"/>
+  <testcase name="testRssButton" classname="eca.blogDetailsTest.BlogPageTest" time="5.145"/>
+  <testcase name="homeOnePurgeQuote" classname="eca.getQuoteTest.GetHomeAndFooterQuoteTest" time="10.061"/>
+  <testcase name="homeRegularPaperQuote" classname="eca.getQuoteTest.GetHomeAndFooterQuoteTest" time="4.229"/>
+  <testcase name="homeHardDriveQuote" classname="eca.getQuoteTest.GetHomeAndFooterQuoteTest" time="3.652"/>
+  <testcase name="homeOtherMaterialQuote" classname="eca.getQuoteTest.GetHomeAndFooterQuoteTest" time="3.881"/>
+  <testcase name="footerOnePurgeQuote" classname="eca.getQuoteTest.GetHomeAndFooterQuoteTest" time="3.731"/>
+  <testcase name="footerRegularPaperQuote" classname="eca.getQuoteTest.GetHomeAndFooterQuoteTest" time="3.857"/>
+  <testcase name="footerHardDriveQuote" classname="eca.getQuoteTest.GetHomeAndFooterQuoteTest" time="3.671"/>
+  <testcase name="footerOtherMaterialQuote" classname="eca.getQuoteTest.GetHomeAndFooterQuoteTest" time="3.798"/>
+  <testcase name="paperShred_Header_OneTimePaperQuote" classname="eca.getQuoteTest.GetPaperShredQuoteTest" time="5.473"/>
+  <testcase name="paperShred_Header_RegularPaperQuote" classname="eca.getQuoteTest.GetPaperShredQuoteTest" time="3.662"/>
+  <testcase name="paperShred_Header_HardDriveQuote" classname="eca.getQuoteTest.GetPaperShredQuoteTest" time="3.947"/>
+  <testcase name="paperShred_Header_OtherMaterialQuote" classname="eca.getQuoteTest.GetPaperShredQuoteTest" time="3.542"/>
+  <testcase name="paperShredding_OneTime_PaperQuote" classname="eca.getQuoteTest.GetPaperShredQuoteTest" time="3.711"/>
+  <testcase name="paperShredding_OneTime_RegularPaperQuote" classname="eca.getQuoteTest.GetPaperShredQuoteTest" time="3.619"/>
+  <testcase name="paperShredding_OneTime_HardDriveQuote" classname="eca.getQuoteTest.GetPaperShredQuoteTest" time="3.534"/>
+  <testcase name="paperShredding_OneTime_OtherMaterialQuote" classname="eca.getQuoteTest.GetPaperShredQuoteTest" time="3.475"/>
+  <testcase name="paperShredding_Regularly_PaperQuote" classname="eca.getQuoteTest.GetPaperShredQuoteTest" time="3.504"/>
+  <testcase name="paperShredding_Regularly_RegularPaperQuote" classname="eca.getQuoteTest.GetPaperShredQuoteTest" time="3.571"/>
+  <testcase name="paperShredding_Regularly_HardDriveQuote" classname="eca.getQuoteTest.GetPaperShredQuoteTest" time="3.55"/>
+  <testcase name="paperShredding_Regularly_OtherMaterialQuote" classname="eca.getQuoteTest.GetPaperShredQuoteTest" time="3.599"/>
+  <testcase name="hdDestruction_Header_OneTimePaperQuote" classname="eca.getQuoteTest.GetHardDriverQuoteTest" time="5.716"/>
+  <testcase name="hdDestruction_Header_RegularPaperQuote" classname="eca.getQuoteTest.GetHardDriverQuoteTest" time="3.508"/>
+  <testcase name="hdDestruction_Header_HardDriveQuote" classname="eca.getQuoteTest.GetHardDriverQuoteTest" time="3.55"/>
+  <testcase name="hdDestruction_Header_OtherMaterialQuote" classname="eca.getQuoteTest.GetHardDriverQuoteTest" time="3.597"/>
+  <testcase name="hdDestruction_Shearing_PaperQuote" classname="eca.getQuoteTest.GetHardDriverQuoteTest" time="4.081"/>
+  <testcase name="hdDestruction_Shearing__RegularPaperQuote" classname="eca.getQuoteTest.GetHardDriverQuoteTest" time="3.604"/>
+  <testcase name="hdDestruction_Shearing__HardDriveQuote" classname="eca.getQuoteTest.GetHardDriverQuoteTest" time="3.428"/>
+  <testcase name="hdDestruction_Shearing__OtherMaterialQuote" classname="eca.getQuoteTest.GetHardDriverQuoteTest" time="3.641"/>
+  <testcase name="hdDestruction_Crushing_PaperQuote" classname="eca.getQuoteTest.GetHardDriverQuoteTest" time="3.663"/>
+  <testcase name="hdDestruction_Crushing_RegularPaperQuote" classname="eca.getQuoteTest.GetHardDriverQuoteTest" time="3.57"/>
+  <testcase name="hdDestruction_Crushing_HardDriveQuote" classname="eca.getQuoteTest.GetHardDriverQuoteTest" time="3.476"/>
+  <testcase name="hdDestruction_Crushing_OtherMaterialQuote" classname="eca.getQuoteTest.GetHardDriverQuoteTest" time="3.445"/>
+  <testcase name="homeSignupTest" classname="eca.signUpTest.SignUpTest" time="1.482"/>
+  <testcase name="serviceSignupTest" classname="eca.signUpTest.SignUpTest" time="3.47"/>
+  <testcase name="pricingSignUpTest" classname="eca.signUpTest.SignUpTest" time="3.122"/>
+  <testcase name="resourceCenterSignUpTest" classname="eca.signUpTest.SignUpTest" time="5.015"/>
+  <testcase name="aboutSignUpTest" classname="eca.signUpTest.SignUpTest" time="3.733"/>
+  <testcase name="faqsSignUpTest" classname="eca.signUpTest.SignUpTest" time="3.439"/>
+  <testcase name="testTitleVerification" classname="eca.serviceCenterPagesTest.ServiceCenterWidgetTest" time="3.887"/>
+  <testcase name="testDescriptionVerification" classname="eca.serviceCenterPagesTest.ServiceCenterWidgetTest" time="1.037"/>
+  <testcase name="testCommunitieServed" classname="eca.serviceCenterPagesTest.ServiceCenterWidgetTest" time="0.02"/>
+  <testcase name="testBottomRail" classname="eca.serviceCenterPagesTest.ServiceCenterWidgetTest" time="0.027"/>
+  <testcase name="testHeaderContactNumber" classname="eca.serviceCenterPagesTest.ServiceCenterWidgetTest" time="1.066"/>
+  <testcase name="testRequestQuoteDisplay" classname="eca.serviceCenterPagesTest.RightRailFormTest" time="2.477"/>
+  <testcase name="testRequestAQuotePurgePaper" classname="eca.serviceCenterPagesTest.RightRailFormTest" time="1.974"/>
+  <testcase name="testRequestAQuoteRegularPaper" classname="eca.serviceCenterPagesTest.RightRailFormTest" time="4.023"/>
+  <testcase name="testRequestAQuotePurgeHardDrive" classname="eca.serviceCenterPagesTest.RightRailFormTest" time="3.74"/>
+  <testcase name="testRequestAQuoteOther" classname="eca.serviceCenterPagesTest.RightRailFormTest" time="3.744"/>
+</testsuite>

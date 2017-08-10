@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ShredIt]">
+  <listeners>
+    <listener class-name="eca.utility.ScreenShotListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="URL" value="http://shredit-qa.ecentricarts.com/en-us/home"/>
+    <classes>
+      <class name="eca.blogDetailsTest.BlogPageTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testBannerContents"/>
+          <include name="testEmailValidation"/>
+          <include name="testRssButton"/>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="testArchivesContent"/>
+          <include name="testBottomRailWidget"/>
+          <include name="testContinueReadingLink"/>
+          <include name="testOlderPostButton"/>
+          <include name="methodName"/>
+          <include name="testSubscribeBlog"/>
+        </methods>
+      </class> <!-- eca.blogDetailsTest.BlogPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [ShredIt] -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ShredIt">
+<listeners>
+       <listener class-name="eca.utility.ScreenShotListener"/>
+  </listeners>
+  <test name="Test">
+	
+  <parameter name="browser" value="Chrome" />
+  <parameter name="URL" value="http://shredit-qa.ecentricarts.com/en-us/home" />
+  
+    <classes>
+   	  <class name="eca.blogDetailsTest.BlogPageTest"/> 		
+   <!--    <class name="eca.getQuoteTest.GetHomeAndFooterQuoteTest"/> 	
+      <class name="eca.getQuoteTest.GetPaperShredQuoteTest"/>
+      <class name="eca.getQuoteTest.GetHardDriverQuoteTest"/> 
+      <class name="eca.signUpTest.SignUpTest"></class> 
+      <class name="eca.serviceCenterPagesTest.ServiceCenterWidgetTest"/>
+   	  <class name="eca.serviceCenterPagesTest.RightRailFormTest"/>
+   	   -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- ShredIt -->

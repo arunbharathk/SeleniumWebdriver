@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="56" passed="56">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ShredIt" duration-ms="235154" started-at="2017-08-03T13:14:49Z" finished-at="2017-08-03T13:18:44Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="235154" started-at="2017-08-03T13:14:49Z" finished-at="2017-08-03T13:18:44Z">
+      <class name="eca.getQuoteTest.GetPaperShredQuoteTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="setup" is-config="true" duration-ms="6099" started-at="2017-08-03T09:15:54Z" finished-at="2017-08-03T09:16:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://shredit-qa.ecentricarts.com/en-us/home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-08-03T09:16:00Z" finished-at="2017-08-03T09:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:16:00Z" finished-at="2017-08-03T09:16:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetPaperShredQuoteTest.paperShred_Header_OneTimePaperQuote() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="paperShred_Header_OneTimePaperQuote()[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="paperShred_Header_OneTimePaperQuote" duration-ms="5473" started-at="2017-08-03T09:16:00Z" finished-at="2017-08-03T09:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paperShred_Header_OneTimePaperQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:16:06Z" finished-at="2017-08-03T09:16:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetPaperShredQuoteTest.paperShred_Header_RegularPaperQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="paperShred_Header_RegularPaperQuote()[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="paperShred_Header_RegularPaperQuote" duration-ms="3661" started-at="2017-08-03T09:16:06Z" depends-on-methods="eca.getQuoteTest.GetPaperShredQuoteTest.paperShred_Header_OneTimePaperQuote" finished-at="2017-08-03T09:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paperShred_Header_RegularPaperQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:16:09Z" finished-at="2017-08-03T09:16:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetPaperShredQuoteTest.paperShred_Header_HardDriveQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="paperShred_Header_HardDriveQuote()[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="paperShred_Header_HardDriveQuote" duration-ms="3946" started-at="2017-08-03T09:16:09Z" depends-on-methods="eca.getQuoteTest.GetPaperShredQuoteTest.paperShred_Header_RegularPaperQuote" finished-at="2017-08-03T09:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paperShred_Header_HardDriveQuote -->
+        <test-method status="PASS" signature="paperShred_Header_OtherMaterialQuote()[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="paperShred_Header_OtherMaterialQuote" duration-ms="3541" started-at="2017-08-03T09:16:13Z" depends-on-methods="eca.getQuoteTest.GetPaperShredQuoteTest.paperShred_Header_HardDriveQuote" finished-at="2017-08-03T09:16:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paperShred_Header_OtherMaterialQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:16:13Z" finished-at="2017-08-03T09:16:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetPaperShredQuoteTest.paperShred_Header_OtherMaterialQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="paperShredding_OneTime_PaperQuote()[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="paperShredding_OneTime_PaperQuote" duration-ms="3710" started-at="2017-08-03T09:16:17Z" depends-on-methods="eca.getQuoteTest.GetPaperShredQuoteTest.paperShred_Header_OtherMaterialQuote" finished-at="2017-08-03T09:16:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paperShredding_OneTime_PaperQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:16:17Z" finished-at="2017-08-03T09:16:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_OneTime_PaperQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="paperShredding_OneTime_RegularPaperQuote()[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="paperShredding_OneTime_RegularPaperQuote" duration-ms="3618" started-at="2017-08-03T09:16:21Z" depends-on-methods="eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_OneTime_PaperQuote" finished-at="2017-08-03T09:16:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paperShredding_OneTime_RegularPaperQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:16:21Z" finished-at="2017-08-03T09:16:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_OneTime_RegularPaperQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="paperShredding_OneTime_HardDriveQuote()[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="paperShredding_OneTime_HardDriveQuote" duration-ms="3534" started-at="2017-08-03T09:16:24Z" depends-on-methods="eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_OneTime_RegularPaperQuote" finished-at="2017-08-03T09:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paperShredding_OneTime_HardDriveQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:16:24Z" finished-at="2017-08-03T09:16:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_OneTime_HardDriveQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:16:28Z" finished-at="2017-08-03T09:16:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_OneTime_OtherMaterialQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="paperShredding_OneTime_OtherMaterialQuote()[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="paperShredding_OneTime_OtherMaterialQuote" duration-ms="3475" started-at="2017-08-03T09:16:28Z" depends-on-methods="eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_OneTime_HardDriveQuote" finished-at="2017-08-03T09:16:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paperShredding_OneTime_OtherMaterialQuote -->
+        <test-method status="PASS" signature="paperShredding_Regularly_PaperQuote()[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="paperShredding_Regularly_PaperQuote" duration-ms="3504" started-at="2017-08-03T09:16:31Z" depends-on-methods="eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_OneTime_OtherMaterialQuote" finished-at="2017-08-03T09:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paperShredding_Regularly_PaperQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:16:31Z" finished-at="2017-08-03T09:16:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_Regularly_PaperQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="paperShredding_Regularly_RegularPaperQuote()[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="paperShredding_Regularly_RegularPaperQuote" duration-ms="3571" started-at="2017-08-03T09:16:35Z" depends-on-methods="eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_Regularly_PaperQuote" finished-at="2017-08-03T09:16:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paperShredding_Regularly_RegularPaperQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:16:35Z" finished-at="2017-08-03T09:16:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_Regularly_RegularPaperQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="paperShredding_Regularly_HardDriveQuote()[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="paperShredding_Regularly_HardDriveQuote" duration-ms="3550" started-at="2017-08-03T09:16:38Z" depends-on-methods="eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_Regularly_RegularPaperQuote" finished-at="2017-08-03T09:16:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paperShredding_Regularly_HardDriveQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:16:38Z" finished-at="2017-08-03T09:16:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_Regularly_HardDriveQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:16:42Z" finished-at="2017-08-03T09:16:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_Regularly_OtherMaterialQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="paperShredding_Regularly_OtherMaterialQuote()[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="paperShredding_Regularly_OtherMaterialQuote" duration-ms="3599" started-at="2017-08-03T09:16:42Z" depends-on-methods="eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_Regularly_HardDriveQuote" finished-at="2017-08-03T09:16:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paperShredding_Regularly_OtherMaterialQuote -->
+        <test-method status="PASS" signature="close()[pri:0, instance:eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45]" name="close" is-config="true" duration-ms="1051" started-at="2017-08-03T09:16:45Z" finished-at="2017-08-03T09:16:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- eca.getQuoteTest.GetPaperShredQuoteTest -->
+      <class name="eca.serviceCenterPagesTest.RightRailFormTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:eca.serviceCenterPagesTest.RightRailFormTest@60f82f98]" name="setup" is-config="true" duration-ms="6837" started-at="2017-08-03T09:18:20Z" finished-at="2017-08-03T09:18:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://shredit-qa.ecentricarts.com/en-us/home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:eca.serviceCenterPagesTest.RightRailFormTest@60f82f98]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-08-03T09:18:27Z" finished-at="2017-08-03T09:18:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.serviceCenterPagesTest.RightRailFormTest@60f82f98]" name="methodName" is-config="true" duration-ms="1" started-at="2017-08-03T09:18:27Z" finished-at="2017-08-03T09:18:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.serviceCenterPagesTest.RightRailFormTest.testRequestQuoteDisplay()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="testRequestQuoteDisplay()[pri:0, instance:eca.serviceCenterPagesTest.RightRailFormTest@60f82f98]" name="testRequestQuoteDisplay" duration-ms="2477" started-at="2017-08-03T09:18:27Z" finished-at="2017-08-03T09:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRequestQuoteDisplay -->
+        <test-method status="PASS" signature="testRequestAQuotePurgePaper()[pri:0, instance:eca.serviceCenterPagesTest.RightRailFormTest@60f82f98]" name="testRequestAQuotePurgePaper" duration-ms="1974" started-at="2017-08-03T09:18:29Z" depends-on-methods="eca.serviceCenterPagesTest.RightRailFormTest.testRequestQuoteDisplay" finished-at="2017-08-03T09:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRequestAQuotePurgePaper -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.serviceCenterPagesTest.RightRailFormTest@60f82f98]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:18:29Z" finished-at="2017-08-03T09:18:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.serviceCenterPagesTest.RightRailFormTest.testRequestAQuotePurgePaper()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.serviceCenterPagesTest.RightRailFormTest@60f82f98]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:18:31Z" finished-at="2017-08-03T09:18:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.serviceCenterPagesTest.RightRailFormTest.testRequestAQuoteRegularPaper()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="testRequestAQuoteRegularPaper()[pri:0, instance:eca.serviceCenterPagesTest.RightRailFormTest@60f82f98]" name="testRequestAQuoteRegularPaper" duration-ms="4023" started-at="2017-08-03T09:18:31Z" depends-on-methods="eca.serviceCenterPagesTest.RightRailFormTest.testRequestAQuotePurgePaper" finished-at="2017-08-03T09:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRequestAQuoteRegularPaper -->
+        <test-method status="PASS" signature="testRequestAQuotePurgeHardDrive()[pri:0, instance:eca.serviceCenterPagesTest.RightRailFormTest@60f82f98]" name="testRequestAQuotePurgeHardDrive" duration-ms="3740" started-at="2017-08-03T09:18:35Z" depends-on-methods="eca.serviceCenterPagesTest.RightRailFormTest.testRequestAQuoteRegularPaper" finished-at="2017-08-03T09:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRequestAQuotePurgeHardDrive -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.serviceCenterPagesTest.RightRailFormTest@60f82f98]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:18:35Z" finished-at="2017-08-03T09:18:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.serviceCenterPagesTest.RightRailFormTest.testRequestAQuotePurgeHardDrive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.serviceCenterPagesTest.RightRailFormTest@60f82f98]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:18:39Z" finished-at="2017-08-03T09:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.serviceCenterPagesTest.RightRailFormTest.testRequestAQuoteOther()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="testRequestAQuoteOther()[pri:0, instance:eca.serviceCenterPagesTest.RightRailFormTest@60f82f98]" name="testRequestAQuoteOther" duration-ms="3744" started-at="2017-08-03T09:18:39Z" depends-on-methods="eca.serviceCenterPagesTest.RightRailFormTest.testRequestAQuotePurgeHardDrive" finished-at="2017-08-03T09:18:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRequestAQuoteOther -->
+        <test-method status="PASS" signature="close()[pri:0, instance:eca.serviceCenterPagesTest.RightRailFormTest@60f82f98]" name="close" is-config="true" duration-ms="1050" started-at="2017-08-03T09:18:43Z" finished-at="2017-08-03T09:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- eca.serviceCenterPagesTest.RightRailFormTest -->
+      <class name="eca.serviceCenterPagesTest.ServiceCenterWidgetTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:eca.serviceCenterPagesTest.ServiceCenterWidgetTest@edf4efb]" name="setup" is-config="true" duration-ms="5830" started-at="2017-08-03T09:18:07Z" finished-at="2017-08-03T09:18:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://shredit-qa.ecentricarts.com/en-us/home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:eca.serviceCenterPagesTest.ServiceCenterWidgetTest@edf4efb]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-08-03T09:18:13Z" finished-at="2017-08-03T09:18:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testTitleVerification()[pri:0, instance:eca.serviceCenterPagesTest.ServiceCenterWidgetTest@edf4efb]" name="testTitleVerification" duration-ms="3887" started-at="2017-08-03T09:18:13Z" finished-at="2017-08-03T09:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitleVerification -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.serviceCenterPagesTest.ServiceCenterWidgetTest@edf4efb]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:18:13Z" finished-at="2017-08-03T09:18:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.serviceCenterPagesTest.ServiceCenterWidgetTest.testTitleVerification()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="testDescriptionVerification()[pri:0, instance:eca.serviceCenterPagesTest.ServiceCenterWidgetTest@edf4efb]" name="testDescriptionVerification" duration-ms="1038" started-at="2017-08-03T09:18:17Z" depends-on-methods="eca.serviceCenterPagesTest.ServiceCenterWidgetTest.testTitleVerification" finished-at="2017-08-03T09:18:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDescriptionVerification -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.serviceCenterPagesTest.ServiceCenterWidgetTest@edf4efb]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:18:17Z" finished-at="2017-08-03T09:18:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.serviceCenterPagesTest.ServiceCenterWidgetTest.testDescriptionVerification()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="testCommunitieServed()[pri:0, instance:eca.serviceCenterPagesTest.ServiceCenterWidgetTest@edf4efb]" name="testCommunitieServed" duration-ms="20" started-at="2017-08-03T09:18:18Z" depends-on-methods="eca.serviceCenterPagesTest.ServiceCenterWidgetTest.testDescriptionVerification" finished-at="2017-08-03T09:18:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCommunitieServed -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.serviceCenterPagesTest.ServiceCenterWidgetTest@edf4efb]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:18:18Z" finished-at="2017-08-03T09:18:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.serviceCenterPagesTest.ServiceCenterWidgetTest.testCommunitieServed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.serviceCenterPagesTest.ServiceCenterWidgetTest@edf4efb]" name="methodName" is-config="true" duration-ms="1" started-at="2017-08-03T09:18:18Z" finished-at="2017-08-03T09:18:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.serviceCenterPagesTest.ServiceCenterWidgetTest.testBottomRail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="testBottomRail()[pri:0, instance:eca.serviceCenterPagesTest.ServiceCenterWidgetTest@edf4efb]" name="testBottomRail" duration-ms="27" started-at="2017-08-03T09:18:18Z" depends-on-methods="eca.serviceCenterPagesTest.ServiceCenterWidgetTest.testCommunitieServed" finished-at="2017-08-03T09:18:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBottomRail -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.serviceCenterPagesTest.ServiceCenterWidgetTest@edf4efb]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:18:18Z" finished-at="2017-08-03T09:18:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.serviceCenterPagesTest.ServiceCenterWidgetTest.testHeaderContactNumber()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="testHeaderContactNumber()[pri:0, instance:eca.serviceCenterPagesTest.ServiceCenterWidgetTest@edf4efb]" name="testHeaderContactNumber" duration-ms="1066" started-at="2017-08-03T09:18:18Z" depends-on-methods="eca.serviceCenterPagesTest.ServiceCenterWidgetTest.testBottomRail" finished-at="2017-08-03T09:18:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeaderContactNumber -->
+        <test-method status="PASS" signature="close()[pri:0, instance:eca.serviceCenterPagesTest.ServiceCenterWidgetTest@edf4efb]" name="close" is-config="true" duration-ms="1049" started-at="2017-08-03T09:18:19Z" finished-at="2017-08-03T09:18:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- eca.serviceCenterPagesTest.ServiceCenterWidgetTest -->
+      <class name="eca.blogDetailsTest.BlogPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:eca.blogDetailsTest.BlogPageTest@35f983a6]" name="setup" is-config="true" duration-ms="7692" started-at="2017-08-03T09:14:49Z" finished-at="2017-08-03T09:14:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://shredit-qa.ecentricarts.com/en-us/home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:eca.blogDetailsTest.BlogPageTest@35f983a6]" name="beforeClass" is-config="true" duration-ms="3" started-at="2017-08-03T09:14:56Z" finished-at="2017-08-03T09:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.blogDetailsTest.BlogPageTest@35f983a6]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:14:56Z" finished-at="2017-08-03T09:14:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.blogDetailsTest.BlogPageTest.testBannerContents() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="testBannerContents()[pri:0, instance:eca.blogDetailsTest.BlogPageTest@35f983a6]" name="testBannerContents" duration-ms="0" started-at="2017-08-03T09:14:56Z" finished-at="2017-08-03T09:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBannerContents -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.blogDetailsTest.BlogPageTest@35f983a6]" name="methodName" is-config="true" duration-ms="1" started-at="2017-08-03T09:14:56Z" finished-at="2017-08-03T09:14:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.blogDetailsTest.BlogPageTest.testContinueReadingLink() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="testContinueReadingLink()[pri:0, instance:eca.blogDetailsTest.BlogPageTest@35f983a6]" name="testContinueReadingLink" duration-ms="5889" started-at="2017-08-03T09:14:56Z" depends-on-methods="eca.blogDetailsTest.BlogPageTest.testBannerContents" finished-at="2017-08-03T09:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContinueReadingLink -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.blogDetailsTest.BlogPageTest@35f983a6]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:15:02Z" finished-at="2017-08-03T09:15:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.blogDetailsTest.BlogPageTest.testSubscribeBlog() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="testSubscribeBlog()[pri:0, instance:eca.blogDetailsTest.BlogPageTest@35f983a6]" name="testSubscribeBlog" duration-ms="30" started-at="2017-08-03T09:15:02Z" depends-on-methods="eca.blogDetailsTest.BlogPageTest.testContinueReadingLink" finished-at="2017-08-03T09:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubscribeBlog -->
+        <test-method status="PASS" signature="testEmailValidation()[pri:0, instance:eca.blogDetailsTest.BlogPageTest@35f983a6]" name="testEmailValidation" duration-ms="1248" started-at="2017-08-03T09:15:02Z" depends-on-methods="eca.blogDetailsTest.BlogPageTest.testSubscribeBlog" finished-at="2017-08-03T09:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmailValidation -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.blogDetailsTest.BlogPageTest@35f983a6]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:15:02Z" finished-at="2017-08-03T09:15:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.blogDetailsTest.BlogPageTest.testEmailValidation() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.blogDetailsTest.BlogPageTest@35f983a6]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:15:04Z" finished-at="2017-08-03T09:15:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.blogDetailsTest.BlogPageTest.testArchivesContent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="testArchivesContent()[pri:0, instance:eca.blogDetailsTest.BlogPageTest@35f983a6]" name="testArchivesContent" duration-ms="44" started-at="2017-08-03T09:15:04Z" depends-on-methods="eca.blogDetailsTest.BlogPageTest.testEmailValidation" finished-at="2017-08-03T09:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArchivesContent -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.blogDetailsTest.BlogPageTest@35f983a6]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:15:04Z" finished-at="2017-08-03T09:15:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.blogDetailsTest.BlogPageTest.testBottomRailWidget() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="testOlderPostButton()[pri:0, instance:eca.blogDetailsTest.BlogPageTest@35f983a6]" name="testOlderPostButton" duration-ms="40" started-at="2017-08-03T09:15:04Z" depends-on-methods="eca.blogDetailsTest.BlogPageTest.testEmailValidation" finished-at="2017-08-03T09:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOlderPostButton -->
+        <test-method status="PASS" signature="testBottomRailWidget()[pri:0, instance:eca.blogDetailsTest.BlogPageTest@35f983a6]" name="testBottomRailWidget" duration-ms="0" started-at="2017-08-03T09:15:04Z" depends-on-methods="eca.blogDetailsTest.BlogPageTest.testEmailValidation" finished-at="2017-08-03T09:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBottomRailWidget -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.blogDetailsTest.BlogPageTest@35f983a6]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:15:04Z" finished-at="2017-08-03T09:15:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.blogDetailsTest.BlogPageTest.testOlderPostButton() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="testRssButton()[pri:0, instance:eca.blogDetailsTest.BlogPageTest@35f983a6]" name="testRssButton" duration-ms="5145" started-at="2017-08-03T09:15:04Z" depends-on-methods="eca.blogDetailsTest.BlogPageTest.testBottomRailWidget" finished-at="2017-08-03T09:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRssButton -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.blogDetailsTest.BlogPageTest@35f983a6]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:15:04Z" finished-at="2017-08-03T09:15:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.blogDetailsTest.BlogPageTest.testRssButton() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="close()[pri:0, instance:eca.blogDetailsTest.BlogPageTest@35f983a6]" name="close" is-config="true" duration-ms="1076" started-at="2017-08-03T09:15:09Z" finished-at="2017-08-03T09:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- eca.blogDetailsTest.BlogPageTest -->
+      <class name="eca.getQuoteTest.GetHomeAndFooterQuoteTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6]" name="setup" is-config="true" duration-ms="6249" started-at="2017-08-03T09:15:10Z" finished-at="2017-08-03T09:15:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://shredit-qa.ecentricarts.com/en-us/home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-08-03T09:15:16Z" finished-at="2017-08-03T09:15:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="homeOnePurgeQuote()[pri:0, instance:eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6]" name="homeOnePurgeQuote" duration-ms="10061" started-at="2017-08-03T09:15:16Z" finished-at="2017-08-03T09:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeOnePurgeQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:15:16Z" finished-at="2017-08-03T09:15:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetHomeAndFooterQuoteTest.homeOnePurgeQuote() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:15:26Z" finished-at="2017-08-03T09:15:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetHomeAndFooterQuoteTest.homeRegularPaperQuote() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="homeRegularPaperQuote()[pri:0, instance:eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6]" name="homeRegularPaperQuote" duration-ms="4229" started-at="2017-08-03T09:15:26Z" depends-on-methods="eca.getQuoteTest.GetHomeAndFooterQuoteTest.homeOnePurgeQuote" finished-at="2017-08-03T09:15:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeRegularPaperQuote -->
+        <test-method status="PASS" signature="homeHardDriveQuote()[pri:0, instance:eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6]" name="homeHardDriveQuote" duration-ms="3651" started-at="2017-08-03T09:15:30Z" depends-on-methods="eca.getQuoteTest.GetHomeAndFooterQuoteTest.homeRegularPaperQuote" finished-at="2017-08-03T09:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeHardDriveQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:15:30Z" finished-at="2017-08-03T09:15:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetHomeAndFooterQuoteTest.homeHardDriveQuote() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="homeOtherMaterialQuote()[pri:0, instance:eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6]" name="homeOtherMaterialQuote" duration-ms="3881" started-at="2017-08-03T09:15:34Z" depends-on-methods="eca.getQuoteTest.GetHomeAndFooterQuoteTest.homeHardDriveQuote" finished-at="2017-08-03T09:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeOtherMaterialQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:15:34Z" finished-at="2017-08-03T09:15:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetHomeAndFooterQuoteTest.homeOtherMaterialQuote() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:15:38Z" finished-at="2017-08-03T09:15:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetHomeAndFooterQuoteTest.footerOnePurgeQuote() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="footerOnePurgeQuote()[pri:0, instance:eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6]" name="footerOnePurgeQuote" duration-ms="3731" started-at="2017-08-03T09:15:38Z" depends-on-methods="eca.getQuoteTest.GetHomeAndFooterQuoteTest.homeOtherMaterialQuote" finished-at="2017-08-03T09:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerOnePurgeQuote -->
+        <test-method status="PASS" signature="footerRegularPaperQuote()[pri:0, instance:eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6]" name="footerRegularPaperQuote" duration-ms="3857" started-at="2017-08-03T09:15:42Z" depends-on-methods="eca.getQuoteTest.GetHomeAndFooterQuoteTest.footerOnePurgeQuote" finished-at="2017-08-03T09:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerRegularPaperQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:15:42Z" finished-at="2017-08-03T09:15:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetHomeAndFooterQuoteTest.footerRegularPaperQuote() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="footerHardDriveQuote()[pri:0, instance:eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6]" name="footerHardDriveQuote" duration-ms="3671" started-at="2017-08-03T09:15:46Z" depends-on-methods="eca.getQuoteTest.GetHomeAndFooterQuoteTest.footerRegularPaperQuote" finished-at="2017-08-03T09:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerHardDriveQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:15:46Z" finished-at="2017-08-03T09:15:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetHomeAndFooterQuoteTest.footerHardDriveQuote() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="footerOtherMaterialQuote()[pri:0, instance:eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6]" name="footerOtherMaterialQuote" duration-ms="3798" started-at="2017-08-03T09:15:49Z" depends-on-methods="eca.getQuoteTest.GetHomeAndFooterQuoteTest.footerHardDriveQuote" finished-at="2017-08-03T09:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerOtherMaterialQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:15:49Z" finished-at="2017-08-03T09:15:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetHomeAndFooterQuoteTest.footerOtherMaterialQuote() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="close()[pri:0, instance:eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6]" name="close" is-config="true" duration-ms="1053" started-at="2017-08-03T09:15:53Z" finished-at="2017-08-03T09:15:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- eca.getQuoteTest.GetHomeAndFooterQuoteTest -->
+      <class name="eca.signUpTest.SignUpTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:eca.signUpTest.SignUpTest@7e0ea639]" name="setup" is-config="true" duration-ms="6579" started-at="2017-08-03T09:17:39Z" finished-at="2017-08-03T09:17:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://shredit-qa.ecentricarts.com/en-us/home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:eca.signUpTest.SignUpTest@7e0ea639]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-08-03T09:17:46Z" finished-at="2017-08-03T09:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.signUpTest.SignUpTest@7e0ea639]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:17:46Z" finished-at="2017-08-03T09:17:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.signUpTest.SignUpTest.homeSignupTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="homeSignupTest()[pri:0, instance:eca.signUpTest.SignUpTest@7e0ea639]" name="homeSignupTest" duration-ms="1482" started-at="2017-08-03T09:17:46Z" finished-at="2017-08-03T09:17:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeSignupTest -->
+        <test-method status="PASS" signature="serviceSignupTest(java.lang.String)[pri:0, instance:eca.signUpTest.SignUpTest@7e0ea639]" name="serviceSignupTest" duration-ms="3470" started-at="2017-08-03T09:17:47Z" data-provider="input" depends-on-methods="eca.signUpTest.SignUpTest.homeSignupTest" finished-at="2017-08-03T09:17:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://shredit-qa.ecentricarts.com/en-us/secure-shredding-services]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serviceSignupTest -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.signUpTest.SignUpTest@7e0ea639]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:17:47Z" finished-at="2017-08-03T09:17:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.signUpTest.SignUpTest.serviceSignupTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.signUpTest.SignUpTest@7e0ea639]" name="methodName" is-config="true" duration-ms="1" started-at="2017-08-03T09:17:51Z" finished-at="2017-08-03T09:17:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.signUpTest.SignUpTest.pricingSignUpTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="pricingSignUpTest(java.lang.String)[pri:0, instance:eca.signUpTest.SignUpTest@7e0ea639]" name="pricingSignUpTest" duration-ms="3121" started-at="2017-08-03T09:17:51Z" data-provider="input" depends-on-methods="eca.signUpTest.SignUpTest.serviceSignupTest" finished-at="2017-08-03T09:17:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://shredit-qa.ecentricarts.com/en-us/pricing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingSignUpTest -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.signUpTest.SignUpTest@7e0ea639]" name="methodName" is-config="true" duration-ms="1" started-at="2017-08-03T09:17:54Z" finished-at="2017-08-03T09:17:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.signUpTest.SignUpTest.resourceCenterSignUpTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="resourceCenterSignUpTest(java.lang.String)[pri:0, instance:eca.signUpTest.SignUpTest@7e0ea639]" name="resourceCenterSignUpTest" duration-ms="5014" started-at="2017-08-03T09:17:54Z" data-provider="input" depends-on-methods="eca.signUpTest.SignUpTest.pricingSignUpTest" finished-at="2017-08-03T09:17:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://shredit-qa.ecentricarts.com/en-us/resource-center]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resourceCenterSignUpTest -->
+        <test-method status="PASS" signature="aboutSignUpTest(java.lang.String)[pri:0, instance:eca.signUpTest.SignUpTest@7e0ea639]" name="aboutSignUpTest" duration-ms="3733" started-at="2017-08-03T09:17:59Z" data-provider="input" depends-on-methods="eca.signUpTest.SignUpTest.resourceCenterSignUpTest" finished-at="2017-08-03T09:18:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://shredit-qa.ecentricarts.com/en-us/about]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutSignUpTest -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.signUpTest.SignUpTest@7e0ea639]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:17:59Z" finished-at="2017-08-03T09:17:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.signUpTest.SignUpTest.aboutSignUpTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.signUpTest.SignUpTest@7e0ea639]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:18:03Z" finished-at="2017-08-03T09:18:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.signUpTest.SignUpTest.faqsSignUpTest(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="faqsSignUpTest(java.lang.String)[pri:0, instance:eca.signUpTest.SignUpTest@7e0ea639]" name="faqsSignUpTest" duration-ms="3439" started-at="2017-08-03T09:18:03Z" data-provider="input" depends-on-methods="eca.signUpTest.SignUpTest.resourceCenterSignUpTest" finished-at="2017-08-03T09:18:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://shredit-qa.ecentricarts.com/en-us/faqs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faqsSignUpTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:eca.signUpTest.SignUpTest@7e0ea639]" name="close" is-config="true" duration-ms="1055" started-at="2017-08-03T09:18:06Z" finished-at="2017-08-03T09:18:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- eca.signUpTest.SignUpTest -->
+      <class name="eca.getQuoteTest.GetHardDriverQuoteTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="setup" is-config="true" duration-ms="6151" started-at="2017-08-03T09:16:46Z" finished-at="2017-08-03T09:16:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://shredit-qa.ecentricarts.com/en-us/home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-08-03T09:16:53Z" finished-at="2017-08-03T09:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="hdDestruction_Header_OneTimePaperQuote()[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="hdDestruction_Header_OneTimePaperQuote" duration-ms="5716" started-at="2017-08-03T09:16:53Z" finished-at="2017-08-03T09:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hdDestruction_Header_OneTimePaperQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:16:53Z" finished-at="2017-08-03T09:16:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Header_OneTimePaperQuote() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:16:58Z" finished-at="2017-08-03T09:16:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Header_RegularPaperQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="hdDestruction_Header_RegularPaperQuote()[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="hdDestruction_Header_RegularPaperQuote" duration-ms="3508" started-at="2017-08-03T09:16:58Z" depends-on-methods="eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Header_OneTimePaperQuote" finished-at="2017-08-03T09:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hdDestruction_Header_RegularPaperQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:17:02Z" finished-at="2017-08-03T09:17:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Header_HardDriveQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="hdDestruction_Header_HardDriveQuote()[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="hdDestruction_Header_HardDriveQuote" duration-ms="3550" started-at="2017-08-03T09:17:02Z" depends-on-methods="eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Header_RegularPaperQuote" finished-at="2017-08-03T09:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hdDestruction_Header_HardDriveQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:17:05Z" finished-at="2017-08-03T09:17:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Header_OtherMaterialQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="hdDestruction_Header_OtherMaterialQuote()[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="hdDestruction_Header_OtherMaterialQuote" duration-ms="3596" started-at="2017-08-03T09:17:05Z" depends-on-methods="eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Header_HardDriveQuote" finished-at="2017-08-03T09:17:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hdDestruction_Header_OtherMaterialQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:17:09Z" finished-at="2017-08-03T09:17:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Shearing_PaperQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="hdDestruction_Shearing_PaperQuote()[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="hdDestruction_Shearing_PaperQuote" duration-ms="4081" started-at="2017-08-03T09:17:09Z" depends-on-methods="eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Header_OtherMaterialQuote" finished-at="2017-08-03T09:17:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hdDestruction_Shearing_PaperQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:17:13Z" finished-at="2017-08-03T09:17:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Shearing__RegularPaperQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="hdDestruction_Shearing__RegularPaperQuote()[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="hdDestruction_Shearing__RegularPaperQuote" duration-ms="3603" started-at="2017-08-03T09:17:13Z" depends-on-methods="eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Shearing_PaperQuote" finished-at="2017-08-03T09:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hdDestruction_Shearing__RegularPaperQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:17:17Z" finished-at="2017-08-03T09:17:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Shearing__HardDriveQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="hdDestruction_Shearing__HardDriveQuote()[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="hdDestruction_Shearing__HardDriveQuote" duration-ms="3428" started-at="2017-08-03T09:17:17Z" depends-on-methods="eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Shearing__RegularPaperQuote" finished-at="2017-08-03T09:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hdDestruction_Shearing__HardDriveQuote -->
+        <test-method status="PASS" signature="hdDestruction_Shearing__OtherMaterialQuote()[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="hdDestruction_Shearing__OtherMaterialQuote" duration-ms="3640" started-at="2017-08-03T09:17:20Z" depends-on-methods="eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Shearing__HardDriveQuote" finished-at="2017-08-03T09:17:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hdDestruction_Shearing__OtherMaterialQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:17:20Z" finished-at="2017-08-03T09:17:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Shearing__OtherMaterialQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:17:24Z" finished-at="2017-08-03T09:17:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Crushing_PaperQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="hdDestruction_Crushing_PaperQuote()[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="hdDestruction_Crushing_PaperQuote" duration-ms="3663" started-at="2017-08-03T09:17:24Z" depends-on-methods="eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Shearing__OtherMaterialQuote" finished-at="2017-08-03T09:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hdDestruction_Crushing_PaperQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:17:27Z" finished-at="2017-08-03T09:17:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Crushing_RegularPaperQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="hdDestruction_Crushing_RegularPaperQuote()[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="hdDestruction_Crushing_RegularPaperQuote" duration-ms="3570" started-at="2017-08-03T09:17:27Z" depends-on-methods="eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Crushing_PaperQuote" finished-at="2017-08-03T09:17:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hdDestruction_Crushing_RegularPaperQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:17:31Z" finished-at="2017-08-03T09:17:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Crushing_HardDriveQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="hdDestruction_Crushing_HardDriveQuote()[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="hdDestruction_Crushing_HardDriveQuote" duration-ms="3476" started-at="2017-08-03T09:17:31Z" depends-on-methods="eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Crushing_RegularPaperQuote" finished-at="2017-08-03T09:17:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hdDestruction_Crushing_HardDriveQuote -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="methodName" is-config="true" duration-ms="0" started-at="2017-08-03T09:17:34Z" finished-at="2017-08-03T09:17:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Crushing_OtherMaterialQuote()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="hdDestruction_Crushing_OtherMaterialQuote()[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="hdDestruction_Crushing_OtherMaterialQuote" duration-ms="3445" started-at="2017-08-03T09:17:34Z" depends-on-methods="eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Crushing_HardDriveQuote" finished-at="2017-08-03T09:17:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hdDestruction_Crushing_OtherMaterialQuote -->
+        <test-method status="PASS" signature="close()[pri:0, instance:eca.getQuoteTest.GetHardDriverQuoteTest@4411d970]" name="close" is-config="true" duration-ms="1055" started-at="2017-08-03T09:17:38Z" finished-at="2017-08-03T09:17:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- eca.getQuoteTest.GetHardDriverQuoteTest -->
+    </test> <!-- Test -->
+  </suite> <!-- ShredIt -->
+</testng-results>

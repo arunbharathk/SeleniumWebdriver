@@ -1,0 +1,359 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>56/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 03 09:14:49 EDT 2017</td>
+</tr>
+<tr><td>Total time:</td><td>235 seconds (235154 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='eca.signUpTest.SignUpTest.aboutSignUpTest()'><b>aboutSignUpTest</b><br>Test class: eca.signUpTest.SignUpTest<br>Parameters: http://shredit-qa.ecentricarts.com/en-us/about</td>
+<td></td>
+<td>3</td>
+<td>eca.signUpTest.SignUpTest@7e0ea639</td></tr>
+<tr>
+<td title='eca.signUpTest.SignUpTest.faqsSignUpTest()'><b>faqsSignUpTest</b><br>Test class: eca.signUpTest.SignUpTest<br>Parameters: http://shredit-qa.ecentricarts.com/en-us/faqs</td>
+<td></td>
+<td>3</td>
+<td>eca.signUpTest.SignUpTest@7e0ea639</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetHomeAndFooterQuoteTest.footerHardDriveQuote()'><b>footerHardDriveQuote</b><br>Test class: eca.getQuoteTest.GetHomeAndFooterQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetHomeAndFooterQuoteTest.footerOnePurgeQuote()'><b>footerOnePurgeQuote</b><br>Test class: eca.getQuoteTest.GetHomeAndFooterQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetHomeAndFooterQuoteTest.footerOtherMaterialQuote()'><b>footerOtherMaterialQuote</b><br>Test class: eca.getQuoteTest.GetHomeAndFooterQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetHomeAndFooterQuoteTest.footerRegularPaperQuote()'><b>footerRegularPaperQuote</b><br>Test class: eca.getQuoteTest.GetHomeAndFooterQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Crushing_HardDriveQuote()'><b>hdDestruction_Crushing_HardDriveQuote</b><br>Test class: eca.getQuoteTest.GetHardDriverQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetHardDriverQuoteTest@4411d970</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Crushing_OtherMaterialQuote()'><b>hdDestruction_Crushing_OtherMaterialQuote</b><br>Test class: eca.getQuoteTest.GetHardDriverQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetHardDriverQuoteTest@4411d970</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Crushing_PaperQuote()'><b>hdDestruction_Crushing_PaperQuote</b><br>Test class: eca.getQuoteTest.GetHardDriverQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetHardDriverQuoteTest@4411d970</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Crushing_RegularPaperQuote()'><b>hdDestruction_Crushing_RegularPaperQuote</b><br>Test class: eca.getQuoteTest.GetHardDriverQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetHardDriverQuoteTest@4411d970</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Header_HardDriveQuote()'><b>hdDestruction_Header_HardDriveQuote</b><br>Test class: eca.getQuoteTest.GetHardDriverQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetHardDriverQuoteTest@4411d970</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Header_OneTimePaperQuote()'><b>hdDestruction_Header_OneTimePaperQuote</b><br>Test class: eca.getQuoteTest.GetHardDriverQuoteTest</td>
+<td></td>
+<td>5</td>
+<td>eca.getQuoteTest.GetHardDriverQuoteTest@4411d970</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Header_OtherMaterialQuote()'><b>hdDestruction_Header_OtherMaterialQuote</b><br>Test class: eca.getQuoteTest.GetHardDriverQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetHardDriverQuoteTest@4411d970</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Header_RegularPaperQuote()'><b>hdDestruction_Header_RegularPaperQuote</b><br>Test class: eca.getQuoteTest.GetHardDriverQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetHardDriverQuoteTest@4411d970</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Shearing_PaperQuote()'><b>hdDestruction_Shearing_PaperQuote</b><br>Test class: eca.getQuoteTest.GetHardDriverQuoteTest</td>
+<td></td>
+<td>4</td>
+<td>eca.getQuoteTest.GetHardDriverQuoteTest@4411d970</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Shearing__HardDriveQuote()'><b>hdDestruction_Shearing__HardDriveQuote</b><br>Test class: eca.getQuoteTest.GetHardDriverQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetHardDriverQuoteTest@4411d970</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Shearing__OtherMaterialQuote()'><b>hdDestruction_Shearing__OtherMaterialQuote</b><br>Test class: eca.getQuoteTest.GetHardDriverQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetHardDriverQuoteTest@4411d970</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetHardDriverQuoteTest.hdDestruction_Shearing__RegularPaperQuote()'><b>hdDestruction_Shearing__RegularPaperQuote</b><br>Test class: eca.getQuoteTest.GetHardDriverQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetHardDriverQuoteTest@4411d970</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetHomeAndFooterQuoteTest.homeHardDriveQuote()'><b>homeHardDriveQuote</b><br>Test class: eca.getQuoteTest.GetHomeAndFooterQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetHomeAndFooterQuoteTest.homeOnePurgeQuote()'><b>homeOnePurgeQuote</b><br>Test class: eca.getQuoteTest.GetHomeAndFooterQuoteTest</td>
+<td></td>
+<td>10</td>
+<td>eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetHomeAndFooterQuoteTest.homeOtherMaterialQuote()'><b>homeOtherMaterialQuote</b><br>Test class: eca.getQuoteTest.GetHomeAndFooterQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetHomeAndFooterQuoteTest.homeRegularPaperQuote()'><b>homeRegularPaperQuote</b><br>Test class: eca.getQuoteTest.GetHomeAndFooterQuoteTest</td>
+<td></td>
+<td>4</td>
+<td>eca.getQuoteTest.GetHomeAndFooterQuoteTest@6442b0a6</td></tr>
+<tr>
+<td title='eca.signUpTest.SignUpTest.homeSignupTest()'><b>homeSignupTest</b><br>Test class: eca.signUpTest.SignUpTest</td>
+<td></td>
+<td>1</td>
+<td>eca.signUpTest.SignUpTest@7e0ea639</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetPaperShredQuoteTest.paperShred_Header_HardDriveQuote()'><b>paperShred_Header_HardDriveQuote</b><br>Test class: eca.getQuoteTest.GetPaperShredQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetPaperShredQuoteTest.paperShred_Header_OneTimePaperQuote()'><b>paperShred_Header_OneTimePaperQuote</b><br>Test class: eca.getQuoteTest.GetPaperShredQuoteTest</td>
+<td></td>
+<td>5</td>
+<td>eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetPaperShredQuoteTest.paperShred_Header_OtherMaterialQuote()'><b>paperShred_Header_OtherMaterialQuote</b><br>Test class: eca.getQuoteTest.GetPaperShredQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetPaperShredQuoteTest.paperShred_Header_RegularPaperQuote()'><b>paperShred_Header_RegularPaperQuote</b><br>Test class: eca.getQuoteTest.GetPaperShredQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_OneTime_HardDriveQuote()'><b>paperShredding_OneTime_HardDriveQuote</b><br>Test class: eca.getQuoteTest.GetPaperShredQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_OneTime_OtherMaterialQuote()'><b>paperShredding_OneTime_OtherMaterialQuote</b><br>Test class: eca.getQuoteTest.GetPaperShredQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_OneTime_PaperQuote()'><b>paperShredding_OneTime_PaperQuote</b><br>Test class: eca.getQuoteTest.GetPaperShredQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_OneTime_RegularPaperQuote()'><b>paperShredding_OneTime_RegularPaperQuote</b><br>Test class: eca.getQuoteTest.GetPaperShredQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_Regularly_HardDriveQuote()'><b>paperShredding_Regularly_HardDriveQuote</b><br>Test class: eca.getQuoteTest.GetPaperShredQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_Regularly_OtherMaterialQuote()'><b>paperShredding_Regularly_OtherMaterialQuote</b><br>Test class: eca.getQuoteTest.GetPaperShredQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_Regularly_PaperQuote()'><b>paperShredding_Regularly_PaperQuote</b><br>Test class: eca.getQuoteTest.GetPaperShredQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45</td></tr>
+<tr>
+<td title='eca.getQuoteTest.GetPaperShredQuoteTest.paperShredding_Regularly_RegularPaperQuote()'><b>paperShredding_Regularly_RegularPaperQuote</b><br>Test class: eca.getQuoteTest.GetPaperShredQuoteTest</td>
+<td></td>
+<td>3</td>
+<td>eca.getQuoteTest.GetPaperShredQuoteTest@67b64c45</td></tr>
+<tr>
+<td title='eca.signUpTest.SignUpTest.pricingSignUpTest()'><b>pricingSignUpTest</b><br>Test class: eca.signUpTest.SignUpTest<br>Parameters: http://shredit-qa.ecentricarts.com/en-us/pricing</td>
+<td></td>
+<td>3</td>
+<td>eca.signUpTest.SignUpTest@7e0ea639</td></tr>
+<tr>
+<td title='eca.signUpTest.SignUpTest.resourceCenterSignUpTest()'><b>resourceCenterSignUpTest</b><br>Test class: eca.signUpTest.SignUpTest<br>Parameters: http://shredit-qa.ecentricarts.com/en-us/resource-center</td>
+<td></td>
+<td>5</td>
+<td>eca.signUpTest.SignUpTest@7e0ea639</td></tr>
+<tr>
+<td title='eca.signUpTest.SignUpTest.serviceSignupTest()'><b>serviceSignupTest</b><br>Test class: eca.signUpTest.SignUpTest<br>Parameters: http://shredit-qa.ecentricarts.com/en-us/secure-shredding-services</td>
+<td></td>
+<td>3</td>
+<td>eca.signUpTest.SignUpTest@7e0ea639</td></tr>
+<tr>
+<td title='eca.blogDetailsTest.BlogPageTest.testArchivesContent()'><b>testArchivesContent</b><br>Test class: eca.blogDetailsTest.BlogPageTest</td>
+<td></td>
+<td>0</td>
+<td>eca.blogDetailsTest.BlogPageTest@35f983a6</td></tr>
+<tr>
+<td title='eca.blogDetailsTest.BlogPageTest.testBannerContents()'><b>testBannerContents</b><br>Test class: eca.blogDetailsTest.BlogPageTest</td>
+<td></td>
+<td>0</td>
+<td>eca.blogDetailsTest.BlogPageTest@35f983a6</td></tr>
+<tr>
+<td title='eca.serviceCenterPagesTest.ServiceCenterWidgetTest.testBottomRail()'><b>testBottomRail</b><br>Test class: eca.serviceCenterPagesTest.ServiceCenterWidgetTest</td>
+<td></td>
+<td>0</td>
+<td>eca.serviceCenterPagesTest.ServiceCenterWidgetTest@edf4efb</td></tr>
+<tr>
+<td title='eca.blogDetailsTest.BlogPageTest.testBottomRailWidget()'><b>testBottomRailWidget</b><br>Test class: eca.blogDetailsTest.BlogPageTest</td>
+<td></td>
+<td>0</td>
+<td>eca.blogDetailsTest.BlogPageTest@35f983a6</td></tr>
+<tr>
+<td title='eca.serviceCenterPagesTest.ServiceCenterWidgetTest.testCommunitieServed()'><b>testCommunitieServed</b><br>Test class: eca.serviceCenterPagesTest.ServiceCenterWidgetTest</td>
+<td></td>
+<td>0</td>
+<td>eca.serviceCenterPagesTest.ServiceCenterWidgetTest@edf4efb</td></tr>
+<tr>
+<td title='eca.blogDetailsTest.BlogPageTest.testContinueReadingLink()'><b>testContinueReadingLink</b><br>Test class: eca.blogDetailsTest.BlogPageTest</td>
+<td></td>
+<td>5</td>
+<td>eca.blogDetailsTest.BlogPageTest@35f983a6</td></tr>
+<tr>
+<td title='eca.serviceCenterPagesTest.ServiceCenterWidgetTest.testDescriptionVerification()'><b>testDescriptionVerification</b><br>Test class: eca.serviceCenterPagesTest.ServiceCenterWidgetTest</td>
+<td></td>
+<td>1</td>
+<td>eca.serviceCenterPagesTest.ServiceCenterWidgetTest@edf4efb</td></tr>
+<tr>
+<td title='eca.blogDetailsTest.BlogPageTest.testEmailValidation()'><b>testEmailValidation</b><br>Test class: eca.blogDetailsTest.BlogPageTest</td>
+<td></td>
+<td>1</td>
+<td>eca.blogDetailsTest.BlogPageTest@35f983a6</td></tr>
+<tr>
+<td title='eca.serviceCenterPagesTest.ServiceCenterWidgetTest.testHeaderContactNumber()'><b>testHeaderContactNumber</b><br>Test class: eca.serviceCenterPagesTest.ServiceCenterWidgetTest</td>
+<td></td>
+<td>1</td>
+<td>eca.serviceCenterPagesTest.ServiceCenterWidgetTest@edf4efb</td></tr>
+<tr>
+<td title='eca.blogDetailsTest.BlogPageTest.testOlderPostButton()'><b>testOlderPostButton</b><br>Test class: eca.blogDetailsTest.BlogPageTest</td>
+<td></td>
+<td>0</td>
+<td>eca.blogDetailsTest.BlogPageTest@35f983a6</td></tr>
+<tr>
+<td title='eca.serviceCenterPagesTest.RightRailFormTest.testRequestAQuoteOther()'><b>testRequestAQuoteOther</b><br>Test class: eca.serviceCenterPagesTest.RightRailFormTest</td>
+<td></td>
+<td>3</td>
+<td>eca.serviceCenterPagesTest.RightRailFormTest@60f82f98</td></tr>
+<tr>
+<td title='eca.serviceCenterPagesTest.RightRailFormTest.testRequestAQuotePurgeHardDrive()'><b>testRequestAQuotePurgeHardDrive</b><br>Test class: eca.serviceCenterPagesTest.RightRailFormTest</td>
+<td></td>
+<td>3</td>
+<td>eca.serviceCenterPagesTest.RightRailFormTest@60f82f98</td></tr>
+<tr>
+<td title='eca.serviceCenterPagesTest.RightRailFormTest.testRequestAQuotePurgePaper()'><b>testRequestAQuotePurgePaper</b><br>Test class: eca.serviceCenterPagesTest.RightRailFormTest</td>
+<td></td>
+<td>1</td>
+<td>eca.serviceCenterPagesTest.RightRailFormTest@60f82f98</td></tr>
+<tr>
+<td title='eca.serviceCenterPagesTest.RightRailFormTest.testRequestAQuoteRegularPaper()'><b>testRequestAQuoteRegularPaper</b><br>Test class: eca.serviceCenterPagesTest.RightRailFormTest</td>
+<td></td>
+<td>4</td>
+<td>eca.serviceCenterPagesTest.RightRailFormTest@60f82f98</td></tr>
+<tr>
+<td title='eca.serviceCenterPagesTest.RightRailFormTest.testRequestQuoteDisplay()'><b>testRequestQuoteDisplay</b><br>Test class: eca.serviceCenterPagesTest.RightRailFormTest</td>
+<td></td>
+<td>2</td>
+<td>eca.serviceCenterPagesTest.RightRailFormTest@60f82f98</td></tr>
+<tr>
+<td title='eca.blogDetailsTest.BlogPageTest.testRssButton()'><b>testRssButton</b><br>Test class: eca.blogDetailsTest.BlogPageTest</td>
+<td></td>
+<td>5</td>
+<td>eca.blogDetailsTest.BlogPageTest@35f983a6</td></tr>
+<tr>
+<td title='eca.blogDetailsTest.BlogPageTest.testSubscribeBlog()'><b>testSubscribeBlog</b><br>Test class: eca.blogDetailsTest.BlogPageTest</td>
+<td></td>
+<td>0</td>
+<td>eca.blogDetailsTest.BlogPageTest@35f983a6</td></tr>
+<tr>
+<td title='eca.serviceCenterPagesTest.ServiceCenterWidgetTest.testTitleVerification()'><b>testTitleVerification</b><br>Test class: eca.serviceCenterPagesTest.ServiceCenterWidgetTest</td>
+<td></td>
+<td>3</td>
+<td>eca.serviceCenterPagesTest.ServiceCenterWidgetTest@edf4efb</td></tr>
+</table><p>
+</body>
+</html>

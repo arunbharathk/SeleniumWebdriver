@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">56</td><td class="numi">56</td><td class="numi">0</td><td class="numi">0</td><td class="numi">235.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="8">eca.blogDetailsTest.BlogPageTest</td><td><a href="#m1"><b>testBannerContents</b>  </a></td><td class="numi">1</td><td>1501766096946</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m2"><b>testContinueReadingLink</b>  </a></td><td class="numi">1</td><td>1501766096948</td><td class="numi">5889</td></tr><tr class="passedodd"><td><a href="#m3"><b>testSubscribeBlog</b>  </a></td><td class="numi">1</td><td>1501766102837</td><td class="numi">30</td></tr><tr class="passedodd"><td><a href="#m4"><b>testEmailValidation</b>  </a></td><td class="numi">1</td><td>1501766102867</td><td class="numi">1248</td></tr><tr class="passedodd"><td><a href="#m5"><b>testArchivesContent</b>  </a></td><td class="numi">1</td><td>1501766104115</td><td class="numi">44</td></tr><tr class="passedodd"><td><a href="#m6"><b>testBottomRailWidget</b>  </a></td><td class="numi">1</td><td>1501766104160</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m7"><b>testOlderPostButton</b>  </a></td><td class="numi">1</td><td>1501766104160</td><td class="numi">40</td></tr><tr class="passedodd"><td><a href="#m8"><b>testRssButton</b>  </a></td><td class="numi">1</td><td>1501766104201</td><td class="numi">5145</td></tr>
+<tr class="passedeven"><td rowspan="8">eca.getQuoteTest.GetHomeAndFooterQuoteTest</td><td><a href="#m9"><b>homeOnePurgeQuote</b>  </a></td><td class="numi">1</td><td>1501766116673</td><td class="numi">10061</td></tr><tr class="passedeven"><td><a href="#m10"><b>homeRegularPaperQuote</b>  </a></td><td class="numi">1</td><td>1501766126734</td><td class="numi">4229</td></tr><tr class="passedeven"><td><a href="#m11"><b>homeHardDriveQuote</b>  </a></td><td class="numi">1</td><td>1501766130963</td><td class="numi">3651</td></tr><tr class="passedeven"><td><a href="#m12"><b>homeOtherMaterialQuote</b>  </a></td><td class="numi">1</td><td>1501766134615</td><td class="numi">3881</td></tr><tr class="passedeven"><td><a href="#m13"><b>footerOnePurgeQuote</b>  </a></td><td class="numi">1</td><td>1501766138496</td><td class="numi">3731</td></tr><tr class="passedeven"><td><a href="#m14"><b>footerRegularPaperQuote</b>  </a></td><td class="numi">1</td><td>1501766142228</td><td class="numi">3857</td></tr><tr class="passedeven"><td><a href="#m15"><b>footerHardDriveQuote</b>  </a></td><td class="numi">1</td><td>1501766146085</td><td class="numi">3671</td></tr><tr class="passedeven"><td><a href="#m16"><b>footerOtherMaterialQuote</b>  </a></td><td class="numi">1</td><td>1501766149757</td><td class="numi">3798</td></tr>
+<tr class="passedodd"><td rowspan="12">eca.getQuoteTest.GetPaperShredQuoteTest</td><td><a href="#m17"><b>paperShred_Header_OneTimePaperQuote</b>  </a></td><td class="numi">1</td><td>1501766160708</td><td class="numi">5473</td></tr><tr class="passedodd"><td><a href="#m18"><b>paperShred_Header_RegularPaperQuote</b>  </a></td><td class="numi">1</td><td>1501766166182</td><td class="numi">3661</td></tr><tr class="passedodd"><td><a href="#m19"><b>paperShred_Header_HardDriveQuote</b>  </a></td><td class="numi">1</td><td>1501766169844</td><td class="numi">3946</td></tr><tr class="passedodd"><td><a href="#m20"><b>paperShred_Header_OtherMaterialQuote</b>  </a></td><td class="numi">1</td><td>1501766173791</td><td class="numi">3541</td></tr><tr class="passedodd"><td><a href="#m21"><b>paperShredding_OneTime_PaperQuote</b>  </a></td><td class="numi">1</td><td>1501766177333</td><td class="numi">3710</td></tr><tr class="passedodd"><td><a href="#m22"><b>paperShredding_OneTime_RegularPaperQuote</b>  </a></td><td class="numi">1</td><td>1501766181044</td><td class="numi">3618</td></tr><tr class="passedodd"><td><a href="#m23"><b>paperShredding_OneTime_HardDriveQuote</b>  </a></td><td class="numi">1</td><td>1501766184663</td><td class="numi">3534</td></tr><tr class="passedodd"><td><a href="#m24"><b>paperShredding_OneTime_OtherMaterialQuote</b>  </a></td><td class="numi">1</td><td>1501766188197</td><td class="numi">3475</td></tr><tr class="passedodd"><td><a href="#m25"><b>paperShredding_Regularly_PaperQuote</b>  </a></td><td class="numi">1</td><td>1501766191672</td><td class="numi">3504</td></tr><tr class="passedodd"><td><a href="#m26"><b>paperShredding_Regularly_RegularPaperQuote</b>  </a></td><td class="numi">1</td><td>1501766195177</td><td class="numi">3571</td></tr><tr class="passedodd"><td><a href="#m27"><b>paperShredding_Regularly_HardDriveQuote</b>  </a></td><td class="numi">1</td><td>1501766198748</td><td class="numi">3550</td></tr><tr class="passedodd"><td><a href="#m28"><b>paperShredding_Regularly_OtherMaterialQuote</b>  </a></td><td class="numi">1</td><td>1501766202298</td><td class="numi">3599</td></tr>
+<tr class="passedeven"><td rowspan="12">eca.getQuoteTest.GetHardDriverQuoteTest</td><td><a href="#m29"><b>hdDestruction_Header_OneTimePaperQuote</b>  </a></td><td class="numi">1</td><td>1501766213100</td><td class="numi">5716</td></tr><tr class="passedeven"><td><a href="#m30"><b>hdDestruction_Header_RegularPaperQuote</b>  </a></td><td class="numi">1</td><td>1501766218816</td><td class="numi">3508</td></tr><tr class="passedeven"><td><a href="#m31"><b>hdDestruction_Header_HardDriveQuote</b>  </a></td><td class="numi">1</td><td>1501766222325</td><td class="numi">3550</td></tr><tr class="passedeven"><td><a href="#m32"><b>hdDestruction_Header_OtherMaterialQuote</b>  </a></td><td class="numi">1</td><td>1501766225875</td><td class="numi">3596</td></tr><tr class="passedeven"><td><a href="#m33"><b>hdDestruction_Shearing_PaperQuote</b>  </a></td><td class="numi">1</td><td>1501766229472</td><td class="numi">4081</td></tr><tr class="passedeven"><td><a href="#m34"><b>hdDestruction_Shearing__RegularPaperQuote</b>  </a></td><td class="numi">1</td><td>1501766233553</td><td class="numi">3603</td></tr><tr class="passedeven"><td><a href="#m35"><b>hdDestruction_Shearing__HardDriveQuote</b>  </a></td><td class="numi">1</td><td>1501766237157</td><td class="numi">3428</td></tr><tr class="passedeven"><td><a href="#m36"><b>hdDestruction_Shearing__OtherMaterialQuote</b>  </a></td><td class="numi">1</td><td>1501766240585</td><td class="numi">3640</td></tr><tr class="passedeven"><td><a href="#m37"><b>hdDestruction_Crushing_PaperQuote</b>  </a></td><td class="numi">1</td><td>1501766244226</td><td class="numi">3663</td></tr><tr class="passedeven"><td><a href="#m38"><b>hdDestruction_Crushing_RegularPaperQuote</b>  </a></td><td class="numi">1</td><td>1501766247889</td><td class="numi">3570</td></tr><tr class="passedeven"><td><a href="#m39"><b>hdDestruction_Crushing_HardDriveQuote</b>  </a></td><td class="numi">1</td><td>1501766251459</td><td class="numi">3476</td></tr><tr class="passedeven"><td><a href="#m40"><b>hdDestruction_Crushing_OtherMaterialQuote</b>  </a></td><td class="numi">1</td><td>1501766254936</td><td class="numi">3445</td></tr>
+<tr class="passedodd"><td rowspan="6">eca.signUpTest.SignUpTest</td><td><a href="#m41"><b>homeSignupTest</b>  </a></td><td class="numi">1</td><td>1501766266017</td><td class="numi">1482</td></tr><tr class="passedodd"><td><a href="#m42"><b>serviceSignupTest</b>  </a></td><td class="numi">1</td><td>1501766267605</td><td class="numi">3470</td></tr><tr class="passedodd"><td><a href="#m43"><b>pricingSignUpTest</b>  </a></td><td class="numi">1</td><td>1501766271144</td><td class="numi">3121</td></tr><tr class="passedodd"><td><a href="#m44"><b>resourceCenterSignUpTest</b>  </a></td><td class="numi">1</td><td>1501766274326</td><td class="numi">5014</td></tr><tr class="passedodd"><td><a href="#m45"><b>aboutSignUpTest</b>  </a></td><td class="numi">1</td><td>1501766279374</td><td class="numi">3733</td></tr><tr class="passedodd"><td><a href="#m46"><b>faqsSignUpTest</b>  </a></td><td class="numi">1</td><td>1501766283138</td><td class="numi">3439</td></tr>
+<tr class="passedeven"><td rowspan="5">eca.serviceCenterPagesTest.ServiceCenterWidgetTest</td><td><a href="#m47"><b>testTitleVerification</b>  </a></td><td class="numi">1</td><td>1501766293464</td><td class="numi">3887</td></tr><tr class="passedeven"><td><a href="#m48"><b>testDescriptionVerification</b>  </a></td><td class="numi">1</td><td>1501766297351</td><td class="numi">1038</td></tr><tr class="passedeven"><td><a href="#m49"><b>testCommunitieServed</b>  </a></td><td class="numi">1</td><td>1501766298389</td><td class="numi">20</td></tr><tr class="passedeven"><td><a href="#m50"><b>testBottomRail</b>  </a></td><td class="numi">1</td><td>1501766298410</td><td class="numi">27</td></tr><tr class="passedeven"><td><a href="#m51"><b>testHeaderContactNumber</b>  </a></td><td class="numi">1</td><td>1501766298437</td><td class="numi">1066</td></tr>
+<tr class="passedodd"><td rowspan="5">eca.serviceCenterPagesTest.RightRailFormTest</td><td><a href="#m52"><b>testRequestQuoteDisplay</b>  </a></td><td class="numi">1</td><td>1501766307390</td><td class="numi">2477</td></tr><tr class="passedodd"><td><a href="#m53"><b>testRequestAQuotePurgePaper</b>  </a></td><td class="numi">1</td><td>1501766309868</td><td class="numi">1974</td></tr><tr class="passedodd"><td><a href="#m54"><b>testRequestAQuoteRegularPaper</b>  </a></td><td class="numi">1</td><td>1501766311842</td><td class="numi">4023</td></tr><tr class="passedodd"><td><a href="#m55"><b>testRequestAQuotePurgeHardDrive</b>  </a></td><td class="numi">1</td><td>1501766315865</td><td class="numi">3740</td></tr><tr class="passedodd"><td><a href="#m56"><b>testRequestAQuoteOther</b>  </a></td><td class="numi">1</td><td>1501766319606</td><td class="numi">3744</td></tr>
+</table>
+<h1>Test</h1>
+<h2 id="m1">eca.signUpTest.SignUpTest:aboutSignUpTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>http://shredit-qa.ecentricarts.com/en-us/about</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">eca.signUpTest.SignUpTest:resourceCenterSignUpTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>http://shredit-qa.ecentricarts.com/en-us/resource-center</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">eca.getQuoteTest.GetPaperShredQuoteTest:paperShred_Header_OtherMaterialQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">eca.getQuoteTest.GetHomeAndFooterQuoteTest:footerRegularPaperQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">eca.blogDetailsTest.BlogPageTest:testBannerContents</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">eca.getQuoteTest.GetPaperShredQuoteTest:paperShredding_OneTime_HardDriveQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">eca.blogDetailsTest.BlogPageTest:testBottomRailWidget</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">eca.getQuoteTest.GetHardDriverQuoteTest:hdDestruction_Crushing_OtherMaterialQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">eca.getQuoteTest.GetPaperShredQuoteTest:paperShredding_OneTime_OtherMaterialQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">eca.getQuoteTest.GetHardDriverQuoteTest:hdDestruction_Shearing_PaperQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">eca.blogDetailsTest.BlogPageTest:testSubscribeBlog</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">eca.blogDetailsTest.BlogPageTest:testRssButton</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">eca.getQuoteTest.GetPaperShredQuoteTest:paperShredding_Regularly_OtherMaterialQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">eca.getQuoteTest.GetHardDriverQuoteTest:hdDestruction_Shearing__OtherMaterialQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">eca.getQuoteTest.GetHardDriverQuoteTest:hdDestruction_Crushing_PaperQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">eca.getQuoteTest.GetPaperShredQuoteTest:paperShredding_Regularly_RegularPaperQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">eca.getQuoteTest.GetHomeAndFooterQuoteTest:homeRegularPaperQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">eca.signUpTest.SignUpTest:homeSignupTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">eca.getQuoteTest.GetHardDriverQuoteTest:hdDestruction_Header_OneTimePaperQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">eca.getQuoteTest.GetHomeAndFooterQuoteTest:footerHardDriveQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">eca.serviceCenterPagesTest.ServiceCenterWidgetTest:testTitleVerification</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">eca.blogDetailsTest.BlogPageTest:testArchivesContent</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">eca.serviceCenterPagesTest.ServiceCenterWidgetTest:testCommunitieServed</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">eca.getQuoteTest.GetPaperShredQuoteTest:paperShredding_OneTime_RegularPaperQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">eca.getQuoteTest.GetHardDriverQuoteTest:hdDestruction_Crushing_RegularPaperQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">eca.serviceCenterPagesTest.RightRailFormTest:testRequestQuoteDisplay</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">eca.serviceCenterPagesTest.RightRailFormTest:testRequestAQuotePurgePaper</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">eca.serviceCenterPagesTest.ServiceCenterWidgetTest:testDescriptionVerification</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">eca.getQuoteTest.GetHomeAndFooterQuoteTest:homeHardDriveQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">eca.getQuoteTest.GetHomeAndFooterQuoteTest:homeOnePurgeQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">eca.getQuoteTest.GetPaperShredQuoteTest:paperShredding_Regularly_HardDriveQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">eca.getQuoteTest.GetHardDriverQuoteTest:hdDestruction_Header_OtherMaterialQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">eca.getQuoteTest.GetHardDriverQuoteTest:hdDestruction_Crushing_HardDriveQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">eca.serviceCenterPagesTest.RightRailFormTest:testRequestAQuoteRegularPaper</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">eca.getQuoteTest.GetHardDriverQuoteTest:hdDestruction_Header_RegularPaperQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">eca.serviceCenterPagesTest.RightRailFormTest:testRequestAQuoteOther</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">eca.getQuoteTest.GetPaperShredQuoteTest:paperShredding_OneTime_PaperQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">eca.blogDetailsTest.BlogPageTest:testOlderPostButton</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">eca.getQuoteTest.GetHardDriverQuoteTest:hdDestruction_Shearing__RegularPaperQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">eca.serviceCenterPagesTest.RightRailFormTest:testRequestAQuotePurgeHardDrive</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">eca.getQuoteTest.GetHomeAndFooterQuoteTest:footerOtherMaterialQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">eca.signUpTest.SignUpTest:faqsSignUpTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>http://shredit-qa.ecentricarts.com/en-us/faqs</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m43">eca.signUpTest.SignUpTest:pricingSignUpTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>http://shredit-qa.ecentricarts.com/en-us/pricing</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m44">eca.getQuoteTest.GetHardDriverQuoteTest:hdDestruction_Shearing__HardDriveQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m45">eca.getQuoteTest.GetHomeAndFooterQuoteTest:homeOtherMaterialQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m46">eca.serviceCenterPagesTest.ServiceCenterWidgetTest:testBottomRail</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m47">eca.blogDetailsTest.BlogPageTest:testEmailValidation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m48">eca.getQuoteTest.GetPaperShredQuoteTest:paperShred_Header_HardDriveQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m49">eca.serviceCenterPagesTest.ServiceCenterWidgetTest:testHeaderContactNumber</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m50">eca.getQuoteTest.GetPaperShredQuoteTest:paperShred_Header_RegularPaperQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m51">eca.getQuoteTest.GetPaperShredQuoteTest:paperShred_Header_OneTimePaperQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m52">eca.getQuoteTest.GetPaperShredQuoteTest:paperShredding_Regularly_PaperQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m53">eca.signUpTest.SignUpTest:serviceSignupTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>http://shredit-qa.ecentricarts.com/en-us/secure-shredding-services</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m54">eca.blogDetailsTest.BlogPageTest:testContinueReadingLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m55">eca.getQuoteTest.GetHardDriverQuoteTest:hdDestruction_Header_HardDriveQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m56">eca.getQuoteTest.GetHomeAndFooterQuoteTest:footerOnePurgeQuote</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

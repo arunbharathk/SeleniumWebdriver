@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="eca.serviceCenterPagesTest.ServiceCenterWidgetTest">
+        <methods>
+          <include name="testHeaderContactNumber"/>
+          <include name="testDescriptionVerification"/>
+          <include name="beforeClass"/>
+          <include name="testCommunitieServed"/>
+          <include name="setup"/>
+          <include name="testBottomRail"/>
+          <include name="close"/>
+          <include name="methodName"/>
+          <include name="testTitleVerification"/>
+        </methods>
+      </class> <!-- eca.serviceCenterPagesTest.ServiceCenterWidgetTest -->
+      <class name="eca.getQuoteTest.GetPaperShredQuoteTest">
+        <methods>
+          <include name="paperShredding_OneTime_OtherMaterialQuote"/>
+          <include name="paperShredding_Regularly_PaperQuote"/>
+          <include name="paperShred_Header_RegularPaperQuote"/>
+          <include name="paperShred_Header_HardDriveQuote"/>
+          <include name="paperShredding_Regularly_HardDriveQuote"/>
+          <include name="methodName"/>
+          <include name="paperShred_Header_OneTimePaperQuote"/>
+          <include name="paperShredding_OneTime_PaperQuote"/>
+          <include name="paperShredding_OneTime_RegularPaperQuote"/>
+          <include name="beforeClass"/>
+          <include name="paperShredding_Regularly_RegularPaperQuote"/>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="paperShredding_OneTime_HardDriveQuote"/>
+          <include name="paperShred_Header_OtherMaterialQuote"/>
+          <include name="paperShredding_Regularly_OtherMaterialQuote"/>
+        </methods>
+      </class> <!-- eca.getQuoteTest.GetPaperShredQuoteTest -->
+      <class name="eca.getQuoteTest.GetHardDriverQuoteTest">
+        <methods>
+          <include name="hdDestruction_Shearing__RegularPaperQuote"/>
+          <include name="hdDestruction_Crushing_RegularPaperQuote"/>
+          <include name="hdDestruction_Crushing_HardDriveQuote"/>
+          <include name="hdDestruction_Crushing_OtherMaterialQuote"/>
+          <include name="hdDestruction_Header_OtherMaterialQuote"/>
+          <include name="hdDestruction_Shearing_PaperQuote"/>
+          <include name="methodName"/>
+          <include name="hdDestruction_Crushing_PaperQuote"/>
+          <include name="hdDestruction_Header_OneTimePaperQuote"/>
+          <include name="hdDestruction_Header_RegularPaperQuote"/>
+          <include name="hdDestruction_Header_HardDriveQuote"/>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="beforeClass"/>
+          <include name="hdDestruction_Shearing__OtherMaterialQuote"/>
+          <include name="hdDestruction_Shearing__HardDriveQuote"/>
+        </methods>
+      </class> <!-- eca.getQuoteTest.GetHardDriverQuoteTest -->
+      <class name="eca.signUpTest.SignUpTest">
+        <methods>
+          <include name="serviceSignupTest"/>
+          <include name="faqsSignUpTest"/>
+          <include name="setup"/>
+          <include name="aboutSignUpTest"/>
+          <include name="beforeClass"/>
+          <include name="close"/>
+          <include name="resourceCenterSignUpTest"/>
+          <include name="homeSignupTest"/>
+          <include name="methodName"/>
+          <include name="pricingSignUpTest"/>
+        </methods>
+      </class> <!-- eca.signUpTest.SignUpTest -->
+      <class name="eca.getQuoteTest.GetHomeAndFooterQuoteTest">
+        <methods>
+          <include name="footerOtherMaterialQuote"/>
+          <include name="homeHardDriveQuote"/>
+          <include name="footerOnePurgeQuote"/>
+          <include name="footerRegularPaperQuote"/>
+          <include name="footerHardDriveQuote"/>
+          <include name="homeOtherMaterialQuote"/>
+          <include name="homeOnePurgeQuote"/>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="beforeClass"/>
+          <include name="homeRegularPaperQuote"/>
+          <include name="methodName"/>
+        </methods>
+      </class> <!-- eca.getQuoteTest.GetHomeAndFooterQuoteTest -->
+      <class name="eca.blogDetailsTest.BlogPageTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testBannerContents"/>
+          <include name="testEmailValidation"/>
+          <include name="testRssButton"/>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="testArchivesContent"/>
+          <include name="testBottomRailWidget"/>
+          <include name="testContinueReadingLink"/>
+          <include name="testOlderPostButton"/>
+          <include name="methodName"/>
+          <include name="testSubscribeBlog"/>
+        </methods>
+      </class> <!-- eca.blogDetailsTest.BlogPageTest -->
+      <class name="eca.serviceCenterPagesTest.RightRailFormTest">
+        <methods>
+          <include name="testRequestAQuotePurgeHardDrive"/>
+          <include name="beforeClass"/>
+          <include name="testRequestAQuoteRegularPaper"/>
+          <include name="testRequestAQuoteOther"/>
+          <include name="setup"/>
+          <include name="testRequestQuoteDisplay"/>
+          <include name="close"/>
+          <include name="testRequestAQuotePurgePaper"/>
+          <include name="methodName"/>
+        </methods>
+      </class> <!-- eca.serviceCenterPagesTest.RightRailFormTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
